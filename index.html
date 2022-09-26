@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lubov Belyaeva</title>
     <meta name="description" content="Front-end developer portfolio"/>
-    <link rel="stylesheet" href="styles.css"/>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
     <script src="https://kit.fontawesome.com/1c554e649f.js" crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9D2HBGGYWY"></script>
+<link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-style ">
@@ -24,16 +25,16 @@
           Lubov Belyaeva
         </a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
   
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto pe-3">
@@ -41,7 +42,7 @@
               <a class="nav-link" href="index.html" title="Reload Homepage">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portfolio.html" title="Portfolio Page">Portfolio</a>
+                <a class="nav-link" href="index.html#portfolio" title="Portfolio Page">Portfolio</a>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html" title="About me Page">About me</a>
@@ -52,16 +53,87 @@
           </ul>
         </div>
       </nav>
-<div class="container">
+
+      <br>
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html#self-care-app">Action</a></li>
+                  <li><a class="dropdown-item" href="index.html#weather-app">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<div class="container introduction">
  <div class="row align-items-center">
-   <div class="col-sm-6" >
+   <div class="col-sm-6 pt-4 pb-2 " >
     <p>Hello, I am</p>
     <h1>LUBOV BELYAEVA</h1>
-    <br/>
     <h2>Front-end developer based in Europe</h2>
    </div>
    <div class="col-sm-6">
-    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade pt-4 pb-4" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="media/self-care_app.png" class="d-block w-100" alt="Self-Care App">
@@ -80,35 +152,68 @@
         </button>
       </div>
 
-
    </div>
  </div>
 </div>
-<br/>
-<a class="d-flex justify-content-center text-decoration-none" href="contacts.html" alt="Contact me" target="_blank" title="Contact Page">
+
+<a class="d-flex justify-content-center text-decoration-none contact-page" href="contacts.html" alt="Contact me" target="_blank" title="Contact Page">
     <button class="contact-me">Contact me</button>
 </a>
-<footer>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-style ps-3">
-        HTML CSS JS Bootstrap API GA
-          
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto pe-3 align-items-center">
-            
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.shecodes.io/graduates/43557-liubov-bieliaieva" target="_blank" title="Profile at SheCodes">
+<footer class="mt-5">
+    <div class="container-fluid p-2">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                HTML CSS JS Bootstrap API GA
+            </div>
+            <div class="col-sm-6 text-end">
+                <a class="nav-link d-inline ps-3" href="https://www.shecodes.io/graduates/43557-liubov-bieliaieva" target="_blank" title="Profile at SheCodes">
                     <img src="media/SheCodes logo.png" alt="Profile at SheCodes school" class="shecodes"/>
                 </a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/liubov-belyaeva-7b77b586/" target="_blank" title="linkedID Profile">
-                <img src="media/linkedin.png" alt="LinkedIn Profile" class="linkedin"/>
-              </a>
-            </li>
-            
-          </ul>
+                <a class="nav-link d-inline p-3" href="https://www.linkedin.com/in/liubov-belyaeva-7b77b586/" target="_blank" title="linkedID Profile">
+                    <img src="media/linkedin.png" alt="LinkedIn Profile" class="linkedin"/>
+                </a>
+            </div>
         </div>
-      </nav>
+    </div>
 </footer>
+<h3 class="text-cener mt-5 " id="portfolio">
+    My Portfolio
+</h3>
+<div class="container-fluid mt-5 mb-5">
+    <div class="row justify-content-md-center text-center">
+      <div class="col-6 d-none d-md-block">
+        <img src="media/self-care_app.png" class="img-fluid border border-5" alt="Self-Care App View"/>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <h2 class="apps self-care-app">Self-Care App</h2>
+        <p>
+          This application is about support for all, who are feeling bad right now.
+          It helps to remember that you are relly important and you should take care of you!
+          You can even virtualy hug yourself and say the words you want to here right now ❤
+        </p>
+        <a rel="canonical" class="d-flex justify-content-center text-decoration-none web-link" href="https://www.shecodes.io/workshops/shecodes-basics-a172659c-9924-4c7e-833d-50d3d9b6457b/projects/892502" alt="Hug YOU" target="_blank" title="Self-Care App Landing Page">
+         <button class="appbuttons mt-3">Launch Self-Care App</button>
+        </a>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="row row justify-content-md-center text-center">
+      <div class="col-md-6 col-xs-12">
+        <h2 class="apps weather-app">Weather App</h2>
+        <p>
+This application helps users to find the weather in any location of the World for today, during this day and for the next week too.
+Bonus - is to find the weather in your current location! Just press the Map-icon 🌞🗺
+      </p>
+      <a rel="canonical" class="d-flex justify-content-center text-decoration-none web-link" href="https://candid-sprite-ef77f4.netlify.app/" alt="Weather App" target="_blank" title="Weather App Landing Page">
+       <button class="appbuttons">Launch Weather App</button>
+      </a>
+      </div>
+      <div class="col-6 d-none d-md-block">
+        <img src="media/weather_app.png " class="img-fluid" alt="Weather App View"/>
+      </div>
+    </div>
+</div>
+
 </body>
 </html>
