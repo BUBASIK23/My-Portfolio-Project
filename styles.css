@@ -39,7 +39,7 @@ h1, h3 {color: white;
 p, h2 {color: var(--secondary-color);
     font-family: var(--secondary-font-family);}
 
-p {font-size: 24px !important;}
+p {font-size: 23px !important;}
 h2 {font-size: 30px !important;
 line-height: 2;}
 
@@ -74,6 +74,8 @@ vertical-align: middle;
 .shecodes {max-width: 140px;}
 
 .linkedin {max-width: 25px;}
+
+.portfolio-container {max-width: 1280px;}
 
 @media (max-width: 1000px) {
     h1 {font-size: 42px !important;}
