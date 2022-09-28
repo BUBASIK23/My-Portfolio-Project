@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+  
     <nav class="navbar navbar-expand-lg bg-light navbar-style ">
         <div class="container-fluid">
             <a class="navbar-brand ps-3" href="index.html" title="Reload Homepage">
@@ -32,46 +33,91 @@
           </button>
       
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto pe-3">
+              <ul class="navbar-nav ms-auto pe-3 ">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html" title="Reload Homepage">Home</a>
+                  <a class="nav-link "  href="index.html" title="Reload Homepage">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html" title="Look at my work">Portfolio</a>
+                    <a class="nav-link active" aria-current="page" href="portfolio.html" title="Look at my work">Portfolio</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="about.html" title="About me Page">About me</a>
+                  <a class="nav-link "  href="about.html" title="About me Page">About me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contacts.html" title="Contact me">Contacts</a>
+                  <a class="nav-link"  href="contacts.html" title="Contact me">Contacts</a>
                 </li>
                </ul>
             </div>
             </div>
           </nav>
-    
-          <br>
-    <div class="container pt-4 pb-2">
-        <div class="row text-center align-items-center">
-            <div class="col-lg-8">
 
-           
-    <h1 class="mb-4">ABOUT ME</h1>
-    <h2 class="about-me">Hello, my name is Liubov - front-end developer.
-        I am passioned about designing, codeing, formulas, - everything that you are wrighting and you see the result immediately.
-        I have 10 years of experience in design-vision, analysis, formulas, script-writing conten-making and so on and so on.
-        I was also working as product owner of Web-Portal and as a scrum master for it.
-        All of it was at the biggest Media Company in Ukraine – StarLigt Media.  And somehow everything was connected to codeing. First was hard formulas in Excel and VBA, than SQL-querries and now, I can say, art-codeing using HTML, CSS and JS languages.
-        To strat work with me, please feel free to reach me directly. Looking forward to getting know you soon and help to make your Brand more visible! Have a nice day!</h2>
-    </div>
-    <div class="col-lg-4">
-        <img src="media/me.jpg" class="img-fluid" alt="Lubov Belyaeva"/>
-    </div>
+      <br>
+    
+
+<div class="container introduction">
+ <div class="row align-items-center">
+   <div class="col-sm-6 pt-4 pb-2 " >
+    <p>My</p>
+    <h1>PORTFOLIO </h1>
+    <h2>Front-end developer based in Europe</h2>
+    <img src="media/html5-logo2.png" class="logo" alt="HTML" width="60px"/>
+    <img src="media/css3-logo3.png" class="logo" alt="CSS" width="60px"/>
+    <img src="media/js-logo2.png" class="logo" alt="Java Script" width="50px"/>
+    <img src="media/editor.png" class="logo m-1" alt="Editor" width="50px"/>
+    <img src="media/api.png" class="logo m-1" alt="API " width="50px"/>
+    <img src="media/github.png" class="logo" alt="GitHub" width="55px"/>
+    <img src="media/hosting.png" class="logo" alt="Hosting" width="45px"/>
+    <img src="media/Google-Analytics-Logo.png" class="logo" alt="Hosting" width="60px"/>
+   </div>
+   <div class="col-sm-6">
+    
 </div>
 </div>
+</div>
+<br/>
+<br/>
+
+<div class="container-fluid mt-5 mb-5 portfolio-container" >
+    <div class="row justify-content-md-center text-center" id="self-care-app">
+      <div class="col-6 d-none d-md-block">
+        <img src="media/self-care_app.png" class="img-fluid border border-5" alt="Self-Care App View"/>
+      </div>
+      <div class="col-md-6 col-xs-12" >
+        <h2 class="apps " >Self-Care App</h2>
+        <p>
+          This application is about support for all, who are feeling bad right now.
+          It helps to remember that you are relly important and you should take care of you!
+          You can even virtualy hug yourself and say the words you want to here right now ❤
+        </p>
+        <a rel="canonical" class="d-flex justify-content-center text-decoration-none web-link" href="https://www.shecodes.io/workshops/shecodes-basics-a172659c-9924-4c7e-833d-50d3d9b6457b/projects/892502" alt="Hug YOU" target="_blank" title="Self-Care App Landing Page">
+         <button class="appbuttons mt-2">Launch Self-Care App</button>
+        </a>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="row justify-content-md-center text-center">
+      <div class="col-md-6 col-xs-12">
+        <h2 class="apps" id="weather-app">Weather App</h2>
+        <p>
+This application helps users to find the weather in any location of the World for today, during this day and for the next week too.
+Bonus - is to find the weather in your current location! Just press the Map-icon 🌞🗺
+      </p>
+      <a rel="canonical" class="d-flex justify-content-center text-decoration-none web-link" href="https://candid-sprite-ef77f4.netlify.app/" alt="Weather App" target="_blank" title="Weather App Landing Page">
+       <button class="appbuttons mt-2">Launch Weather App</button>
+      </a>
+      </div>
+      <div class="col-6 d-none d-md-block">
+        <img src="media/weather_app.png " class="img-fluid border border-5" alt="Weather App View"/>
+      </div>
+    </div>
+</div>
+
+
 <a class="d-flex justify-content-center text-decoration-none contact-page" href="contacts.html" alt="Contact me" target="_blank" title="Contact Page">
-    <button class="contact-me mb-5">Contact me</button>
+    <button class="contact-me">Contact me</button>
 </a>
+
 <footer class="mt-5">
     <div class="container-fluid p-2">
         <div class="row align-items-center">
@@ -88,7 +134,4 @@
             </div>
         </div>
     </div>
-</footer>   
-    
-</body>
-</html>
+</footer>

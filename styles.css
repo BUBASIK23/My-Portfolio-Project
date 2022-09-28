@@ -20,14 +20,18 @@ body {background-color: var(--primary-color) !important;}
     width: 100%;
     z-index: 99;
     transition: top 0.2s ease-out;
-        
   }
+
+
+
 .navbar-brand {font-family: var(--primary-font-family);
 color: var(--secondary-color) !important;}
 
 .nav-item {color: var(--primary-color) !important;
     font-family: var(--third-font-family);
     }
+
+
 
 h1, h3 {color: white;
     font-family: var(--primary-font-family);
@@ -41,7 +45,8 @@ p, h2 {color: var(--secondary-color);
 
 p {font-size: 23px !important;}
 h2 {font-size: 30px !important;
-line-height: 2;}
+line-height: 2;
+}
 
 .about-me {font-size: 18px !important;
 
@@ -97,3 +102,4 @@ vertical-align: middle;
 
 h3 {text-align: center;
     font-size: 42px}
+
