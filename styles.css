@@ -49,6 +49,8 @@ line-height: 2;
 }
 
 .about-me {font-size: 18px !important;
+ 
+    text-indent: 50px;
 
 }
 
@@ -80,7 +82,7 @@ vertical-align: middle;
 
 .linkedin {max-width: 25px;}
 
-.portfolio-container {max-width: 1280px;}
+
 
 @media (max-width: 1000px) {
     h1 {font-size: 42px !important;}
@@ -103,3 +105,7 @@ vertical-align: middle;
 h3 {text-align: center;
     font-size: 42px}
 
+.images {background-color: var(--secondary-color);
+padding: 60px 10px;
+border-radius: 2px;
+}
